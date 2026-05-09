@@ -102,9 +102,10 @@ export default function Footer() {
             &copy; {year} Tuwei GreenScapes and Contractors. All rights reserved.
           </p>
           <p className="text-white/70">
-            Built by <span className="text-gold font-semibold">Anointed Coder</span>{" "}
-            <a href="mailto:anointedcoder@gmail.com" className="hover:text-gold transition">
-              anointedcoder@gmail.com
+            Built by <span className="text-gold font-semibold">Sunday</span> from{" "}
+            <span className="text-gold font-semibold">Rss World Network Ltd.</span>{" "}
+            <a href="mailto:info@rssworldnet.work" className="hover:text-gold transition">
+              info@rssworldnet.work
             </a>
           </p>
         </div>
