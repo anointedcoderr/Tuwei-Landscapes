@@ -15,7 +15,7 @@ export const catalogue = [
     description:
       "Machine cut, zero joint finish for elegant walls, entrances, and outdoor surfaces. Strong, weather resistant, and timeless.",
     image:
-      "https://images.unsplash.com/photo-1604335398480-1ac49bd87a47?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1774535697396-53833f0587c4?auto=format&fit=crop&w=1200&q=80"
   },
   {
     id: "potted-flowers",

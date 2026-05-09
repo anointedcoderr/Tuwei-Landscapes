@@ -22,7 +22,7 @@ export const projects = [
     name: "Modern Car Parking Shade",
     category: "Construction",
     image:
-      "https://images.unsplash.com/photo-1597007030739-6d2e7172ee6c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1669777054931-b9b8fe8580ce?auto=format&fit=crop&w=1200&q=80",
     short: "A 4 car steel and membrane shade installed for a residential compound.",
     full: "Custom 4 car parking shade with a powder coated steel frame and durable architectural membrane roofing. Engineered for Kenyan weather, with smooth water runoff and clean lines that suit modern homes and offices. Installation completed in days with minimal disruption to the household."
   },
