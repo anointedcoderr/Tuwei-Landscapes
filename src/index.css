@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-charcoal font-sans antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+  ::selection {
+    background: #C9A227;
+    color: #0B2E1D;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply max-w-7xl mx-auto px-5 sm:px-8 lg:px-12;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold text-deepforest font-semibold px-6 py-3 shadow-gold hover:brightness-105 hover:-translate-y-0.5 transition will-change-transform;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/70 text-white font-semibold px-6 py-3 hover:bg-white hover:text-deepforest transition;
+  }
+  .btn-forest {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-forest text-white font-semibold px-6 py-3 hover:bg-deepforest transition;
+  }
+  .btn-whatsapp {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-[#25D366] text-white font-semibold px-5 py-2.5 hover:brightness-110 transition;
+  }
+  .section {
+    @apply py-20 sm:py-24;
+  }
+  .eyebrow {
+    @apply inline-block text-gold uppercase tracking-[0.18em] text-xs font-semibold mb-3;
+  }
+  .card {
+    @apply bg-white rounded-2xl shadow-card p-7 transition hover:-translate-y-1 hover:shadow-soft;
+  }
+  .heading-xl {
+    @apply font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-[1.05];
+  }
+  .heading-lg {
+    @apply font-display text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+  .heading-md {
+    @apply font-display text-2xl sm:text-3xl font-semibold;
+  }
+}
+
+.bg-hero {
+  background-image:
+    linear-gradient(135deg, rgba(11,46,29,0.85) 0%, rgba(31,94,59,0.65) 60%, rgba(11,46,29,0.9) 100%),
+    url("https://images.unsplash.com/photo-1558293842-c0fd3db86157?auto=format&fit=crop&w=2000&q=80");
+  background-size: cover;
+  background-position: center;
+}
